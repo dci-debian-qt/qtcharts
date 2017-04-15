@@ -11,6 +11,6 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtcharts.git
 
 Package: qtcharts-opensource-src
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt charts module
  Qt Charts module provides a set of easy to use chart components.
