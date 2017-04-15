@@ -3,7 +3,11 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 10)
+Build-Depends: build-essential,
+               debhelper (>= 10),
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.7.1+dfsg~),
+               qtbase5-private-dev (>= 5.7.1+dfsg~)
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtcharts-index.html
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtcharts.git
