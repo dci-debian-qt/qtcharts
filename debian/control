@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 10),
-               dpkg-dev,
+               dpkg-dev (>= 1.17.14),
                pkg-kde-tools,
                qtbase5-dev (>= 5.7.1+dfsg~),
                qtdeclarative5-dev (>= 5.7.1~)
