@@ -1,0 +1,3 @@
+qml/QtCharts/plugins.qmltypes
+qml/QtCharts/qmldir
+src/charts/QtCharts.version.in
