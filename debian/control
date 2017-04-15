@@ -7,8 +7,7 @@ Build-Depends: debhelper (>= 10),
                dpkg-dev,
                pkg-kde-tools,
                qtbase5-dev (>= 5.7.1+dfsg~),
-               qtdeclarative5-dev (>= 5.7.1~),
-               qtbase5-private-dev (>= 5.7.1+dfsg~)
+               qtdeclarative5-dev (>= 5.7.1~)
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtcharts-index.html
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtcharts.git
