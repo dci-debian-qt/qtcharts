@@ -29,14 +29,3 @@ Description: Qt chart examples
  Qt Charts module provides a set of easy to use chart components.
  .
  This package contains Qt 5 Chart examples.
-
-Package: qtcharts5-private-dev
-Architecture: any
-Depends: qt5charts5-dev (= ${binary:Version}), ${misc:Depends}
-Description: Qt charts private development files
- Qt Charts module provides a set of easy to use chart components.
- .
- This package contains the private header development files for building some
- Qt 5 applications using QtCharts private headers.
- .
- Use at your own risk.
