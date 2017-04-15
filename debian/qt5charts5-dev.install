@@ -97,6 +97,6 @@ usr/include/*/qt5/QtCharts/qxymodelmapper.h
 usr/include/*/qt5/QtCharts/qxyseries.h
 usr/lib/*/cmake/*
 usr/lib/*/libQt5Charts.prl
-usr/lib/*/libQt5Charts.so*
+usr/lib/*/libQt5Charts.so
 usr/lib/*/pkgconfig/Qt5Charts.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_charts.pri
