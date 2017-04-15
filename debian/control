@@ -5,6 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: build-essential,
                debhelper (>= 10),
+               dpkg-dev,
                pkg-kde-tools,
                qtbase5-dev (>= 5.7.1+dfsg~),
                qtbase5-private-dev (>= 5.7.1+dfsg~)
