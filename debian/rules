@@ -16,7 +16,13 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
-override_dh_auto_install:
+override_dh_auto_build-indep:
+	dh_auto_build -- docs
+
+override_dh_auto_install-indep:
+	$(MAKE) install_docs -Csrc INSTALL_ROOT=$(CURDIR)/debian/tmp
+
+override_dh_auto_install-arch:
 	dh_auto_install
 
 	# Remove private headers and the .pri file
