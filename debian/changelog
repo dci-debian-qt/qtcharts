@@ -2,6 +2,8 @@ qtcharts-opensource-src (5.7.1-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Run the tests only during architecture-specific builds.
+  * Make qtcharts5-examples depend on qml-module-qtcharts, as there are
+    QML examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Apr 2017 14:44:52 +0300
 
