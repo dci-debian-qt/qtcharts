@@ -2,6 +2,7 @@ qtcharts-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Install new files for candle stick and box plot models.
+  * Update symbols from build logs.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 26 May 2017 23:13:40 -0500
 
