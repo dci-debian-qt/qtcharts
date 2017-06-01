@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 amd64
+# SymbolsHelper-Confirmed: 5.9.0~rc amd64
 libQt5Charts.so.5 libqt5charts5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1
  Qt_5.1@Qt_5.1 5.7.1
@@ -8,6 +8,8 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  Qt_5.5@Qt_5.5 5.7.1
  Qt_5.6@Qt_5.6 5.7.1
  Qt_5.7@Qt_5.7 5.7.1
+ Qt_5.8@Qt_5.8 5.9.0~rc
+ Qt_5.9@Qt_5.9 5.9.0~rc
  Qt_5@Qt_5 5.7.1
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1
  _ZN8QtCharts10QBarSeries11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
@@ -255,6 +257,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts13QLegendMarker11qt_metacastEPKc@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarker12brushChangedEv@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarker12labelChangedEv@Qt_5 5.7.1
+ _ZN8QtCharts13QLegendMarker12shapeChangedEv@Qt_5 5.9.0~rc
  _ZN8QtCharts13QLegendMarker13setLabelBrushERK6QBrush@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarker14visibleChangedEv@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarker16staticMetaObjectE@Qt_5 5.7.1
@@ -265,6 +268,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts13QLegendMarker7setFontERK5QFont@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarker8setBrushERK6QBrush@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarker8setLabelERK7QString@Qt_5 5.7.1
+ _ZN8QtCharts13QLegendMarker8setShapeENS_7QLegend11MarkerShapeE@Qt_5 5.9.0~rc
  _ZN8QtCharts13QLegendMarkerC1ERNS_20QLegendMarkerPrivateEP7QObject@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarkerC2ERNS_20QLegendMarkerPrivateEP7QObject@Qt_5 5.7.1
  _ZN8QtCharts13QLegendMarkerD0Ev@Qt_5 5.7.1
@@ -278,7 +282,10 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts13QLogValueAxis12rangeChangedEdd@Qt_5 5.7.1
  _ZN8QtCharts13QLogValueAxis14setLabelFormatERK7QString@Qt_5 5.7.1
  _ZN8QtCharts13QLogValueAxis16staticMetaObjectE@Qt_5 5.7.1
+ _ZN8QtCharts13QLogValueAxis16tickCountChangedEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts13QLogValueAxis17setMinorTickCountEi@Qt_5 5.9.0~rc
  _ZN8QtCharts13QLogValueAxis18labelFormatChangedERK7QString@Qt_5 5.7.1
+ _ZN8QtCharts13QLogValueAxis21minorTickCountChangedEi@Qt_5 5.9.0~rc
  _ZN8QtCharts13QLogValueAxis6setMaxEd@Qt_5 5.7.1
  _ZN8QtCharts13QLogValueAxis6setMinEd@Qt_5 5.7.1
  _ZN8QtCharts13QLogValueAxis7setBaseEd@Qt_5 5.7.1
@@ -393,6 +400,35 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts15QBarModelMapper9setSeriesEPNS_18QAbstractBarSeriesE@Qt_5 5.7.1
  _ZN8QtCharts15QBarModelMapperC1EP7QObject@Qt_5 5.7.1
  _ZN8QtCharts15QBarModelMapperC2EP7QObject@Qt_5 5.7.1
+ _ZN8QtCharts15QCandlestickSet10lowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet10penChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet11highChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet11openChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet12brushChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet12closeChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet12setTimestampEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet13doubleClickedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet16timestampChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet6setLowEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet6setPenERK4QPen@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet7clickedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet7hoveredEb@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet7pressedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet7setHighEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet7setOpenEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet8releasedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet8setBrushERK6QBrush@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSet8setCloseEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetC1EdP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetC1EdddddP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetC2EdP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetC2EdddddP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetD0Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetD1Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts15QCandlestickSetD2Ev@Qt_5 5.9.0~rc
  _ZN8QtCharts15QHXYModelMapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
  _ZN8QtCharts15QHXYModelMapper11qt_metacastEPKc@Qt_5 5.7.1
  _ZN8QtCharts15QHXYModelMapper11xRowChangedEv@Qt_5 5.7.1
@@ -626,6 +662,49 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts18QAbstractBarSeriesD0Ev@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeriesD1Ev@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeriesD2Ev@Qt_5 5.7.1
+ _ZN8QtCharts18QCandlestickSeries10penChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries12brushChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries12countChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries12setBodyWidthEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries12setCapsWidthEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries13doubleClickedEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries14setCapsVisibleEb@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries16bodyWidthChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries16capsWidthChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries18setDecreasingColorERK6QColor@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries18setIncreasingColorERK6QColor@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries20candlestickSetsAddedERK5QListIPNS_15QCandlestickSetEE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries21capsVisibilityChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries21setBodyOutlineVisibleEb@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries21setMaximumColumnWidthEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries21setMinimumColumnWidthEd@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries22candlestickSetsRemovedERK5QListIPNS_15QCandlestickSetEE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries22decreasingColorChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries22increasingColorChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries25maximumColumnWidthChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries25minimumColumnWidthChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries28bodyOutlineVisibilityChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries4takeEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries5clearEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries6appendEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries6appendERK5QListIPNS_15QCandlestickSetEE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries6insertEiPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries6removeEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries6removeERK5QListIPNS_15QCandlestickSetEE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries6setPenERK4QPen@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries7clickedEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries7hoveredEbPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries7pressedEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries8releasedEPNS_15QCandlestickSetE@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeries8setBrushERK6QBrush@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeriesC1EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeriesC2EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeriesD0Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeriesD1Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts18QCandlestickSeriesD2Ev@Qt_5 5.9.0~rc
  _ZN8QtCharts19QBoxPlotModelMapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
  _ZN8QtCharts19QBoxPlotModelMapper11qt_metacastEPKc@Qt_5 5.7.1
  _ZN8QtCharts19QBoxPlotModelMapper14setOrientationEN2Qt11OrientationE@Qt_5 5.7.1
@@ -649,6 +728,23 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts20QBoxPlotLegendMarkerD0Ev@Qt_5 5.7.1
  _ZN8QtCharts20QBoxPlotLegendMarkerD1Ev@Qt_5 5.7.1
  _ZN8QtCharts20QBoxPlotLegendMarkerD2Ev@Qt_5 5.7.1
+ _ZN8QtCharts20QHBoxPlotModelMapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper13modelReplacedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper14seriesReplacedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper14setColumnCountEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper14setFirstColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper16setLastBoxSetRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper17setFirstBoxSetRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper18columnCountChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper18firstColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper20lastBoxSetRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper21firstBoxSetRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper8setModelEP18QAbstractItemModel@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapper9setSeriesEPNS_14QBoxPlotSeriesE@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapperC1EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts20QHBoxPlotModelMapperC2EP7QObject@Qt_5 5.9.0~rc
  _ZN8QtCharts20QHorizontalBarSeries11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
  _ZN8QtCharts20QHorizontalBarSeries11qt_metacastEPKc@Qt_5 5.7.1
  _ZN8QtCharts20QHorizontalBarSeries16staticMetaObjectE@Qt_5 5.7.1
@@ -674,6 +770,70 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts20QVBoxPlotModelMapper9setSeriesEPNS_14QBoxPlotSeriesE@Qt_5 5.7.1
  _ZN8QtCharts20QVBoxPlotModelMapperC1EP7QObject@Qt_5 5.7.1
  _ZN8QtCharts20QVBoxPlotModelMapperC2EP7QObject@Qt_5 5.7.1
+ _ZN8QtCharts23QCandlestickModelMapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper12setTimestampEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper13modelReplacedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper14seriesReplacedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper17setLastSetSectionEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper18setFirstSetSectionEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper6setLowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper7setHighEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper7setOpenEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper8setCloseEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper8setModelEP18QAbstractItemModel@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapper9setSeriesEPNS_18QCandlestickSeriesE@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapperC1EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts23QCandlestickModelMapperC2EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarker11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarker11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarker16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarker4typeEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarker6seriesEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarkerC1EPNS_18QCandlestickSeriesEPNS_7QLegendEP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarkerC2EPNS_18QCandlestickSeriesEPNS_7QLegendEP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarkerD0Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarkerD1Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QCandlestickLegendMarkerD2Ev@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper12setLowColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper13setHighColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper13setLastSetRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper13setOpenColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper14setCloseColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper14setFirstSetRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper16lowColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper17highColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper17lastSetRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper17openColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper18closeColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper18firstSetRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper18setTimestampColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapper22timestampColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapperC1EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QHCandlestickModelMapperC2EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper10setHighRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper10setOpenRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper11qt_metacastEPKc@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper11setCloseRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper13lowRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper14highRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper14openRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper15closeRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper15setTimestampRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper16setLastSetColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper16staticMetaObjectE@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper17setFirstSetColumnEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper19timestampRowChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper20lastSetColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper21firstSetColumnChangedEv@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapper9setLowRowEi@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapperC1EP7QObject@Qt_5 5.9.0~rc
+ _ZN8QtCharts24QVCandlestickModelMapperC2EP7QObject@Qt_5 5.9.0~rc
  _ZN8QtCharts27QHorizontalPercentBarSeries11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
  _ZN8QtCharts27QHorizontalPercentBarSeries11qt_metacastEPKc@Qt_5 5.7.1
  _ZN8QtCharts27QHorizontalPercentBarSeries16staticMetaObjectE@Qt_5 5.7.1
@@ -816,6 +976,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts7QLegend13setLabelColorE6QColor@Qt_5 5.7.1
  _ZN8QtCharts7QLegend14reverseMarkersEv@Qt_5 5.7.1
  _ZN8QtCharts7QLegend14setBorderColorE6QColor@Qt_5 5.7.1
+ _ZN8QtCharts7QLegend14setMarkerShapeENS0_11MarkerShapeE@Qt_5 5.9.0~rc
  _ZN8QtCharts7QLegend15detachFromChartEv@Qt_5 5.7.1
  _ZN8QtCharts7QLegend15setShowToolTipsEb@Qt_5 5.7.1
  _ZN8QtCharts7QLegend16staticMetaObjectE@Qt_5 5.7.1
@@ -823,6 +984,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts7QLegend17labelColorChangedE6QColor@Qt_5 5.7.1
  _ZN8QtCharts7QLegend17setReverseMarkersEb@Qt_5 5.7.1
  _ZN8QtCharts7QLegend18borderColorChangedE6QColor@Qt_5 5.7.1
+ _ZN8QtCharts7QLegend18markerShapeChangedENS0_11MarkerShapeE@Qt_5 5.9.0~rc
  _ZN8QtCharts7QLegend19showToolTipsChangedEb@Qt_5 5.7.1
  _ZN8QtCharts7QLegend20setBackgroundVisibleEb@Qt_5 5.7.1
  _ZN8QtCharts7QLegend21reverseMarkersChangedEb@Qt_5 5.7.1
@@ -1026,13 +1188,16 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts13QLegendMarker4fontEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLegendMarker5brushEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLegendMarker5labelEv@Qt_5 5.7.1
+ _ZNK8QtCharts13QLegendMarker5shapeEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts13QLegendMarker9isVisibleEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLogValueAxis10metaObjectEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLogValueAxis11labelFormatEv@Qt_5 5.7.1
+ _ZNK8QtCharts13QLogValueAxis14minorTickCountEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts13QLogValueAxis3maxEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLogValueAxis3minEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLogValueAxis4baseEv@Qt_5 5.7.1
  _ZNK8QtCharts13QLogValueAxis4typeEv@Qt_5 5.7.1
+ _ZNK8QtCharts13QLogValueAxis9tickCountEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts13QSplineSeries10metaObjectEv@Qt_5 5.7.1
  _ZNK8QtCharts13QSplineSeries4typeEv@Qt_5 5.7.1
  _ZNK8QtCharts14QBoxPlotSeries10metaObjectEv@Qt_5 5.7.1
@@ -1070,6 +1235,14 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts15QBarModelMapper5firstEv@Qt_5 5.7.1
  _ZNK8QtCharts15QBarModelMapper5modelEv@Qt_5 5.7.1
  _ZNK8QtCharts15QBarModelMapper6seriesEv@Qt_5 5.7.1
+ _ZNK8QtCharts15QCandlestickSet10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet3lowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet3penEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet4highEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet4openEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet5brushEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet5closeEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts15QCandlestickSet9timestampEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts15QHXYModelMapper10metaObjectEv@Qt_5 5.7.1
  _ZNK8QtCharts15QHXYModelMapper11columnCountEv@Qt_5 5.7.1
  _ZNK8QtCharts15QHXYModelMapper11firstColumnEv@Qt_5 5.7.1
@@ -1142,6 +1315,20 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts18QAbstractBarSeries5countEv@Qt_5 5.7.1
  _ZNK8QtCharts18QAbstractBarSeries7barSetsEv@Qt_5 5.7.1
  _ZNK8QtCharts18QAbstractBarSeries8barWidthEv@Qt_5 5.7.1
+ _ZNK8QtCharts18QCandlestickSeries10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries11capsVisibleEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries15decreasingColorEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries15increasingColorEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries18bodyOutlineVisibleEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries18maximumColumnWidthEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries18minimumColumnWidthEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries3penEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries4setsEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries4typeEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries5brushEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries5countEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries9bodyWidthEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts18QCandlestickSeries9capsWidthEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts19QBoxPlotModelMapper10metaObjectEv@Qt_5 5.7.1
  _ZNK8QtCharts19QBoxPlotModelMapper11orientationEv@Qt_5 5.7.1
  _ZNK8QtCharts19QBoxPlotModelMapper17lastBoxSetSectionEv@Qt_5 5.7.1
@@ -1151,6 +1338,13 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts19QBoxPlotModelMapper5modelEv@Qt_5 5.7.1
  _ZNK8QtCharts19QBoxPlotModelMapper6seriesEv@Qt_5 5.7.1
  _ZNK8QtCharts20QBoxPlotLegendMarker10metaObjectEv@Qt_5 5.7.1
+ _ZNK8QtCharts20QHBoxPlotModelMapper10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts20QHBoxPlotModelMapper11columnCountEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts20QHBoxPlotModelMapper11firstColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts20QHBoxPlotModelMapper13lastBoxSetRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts20QHBoxPlotModelMapper14firstBoxSetRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts20QHBoxPlotModelMapper5modelEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts20QHBoxPlotModelMapper6seriesEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts20QHorizontalBarSeries10metaObjectEv@Qt_5 5.7.1
  _ZNK8QtCharts20QHorizontalBarSeries4typeEv@Qt_5 5.7.1
  _ZNK8QtCharts20QVBoxPlotModelMapper10metaObjectEv@Qt_5 5.7.1
@@ -1160,6 +1354,35 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts20QVBoxPlotModelMapper6seriesEv@Qt_5 5.7.1
  _ZNK8QtCharts20QVBoxPlotModelMapper8firstRowEv@Qt_5 5.7.1
  _ZNK8QtCharts20QVBoxPlotModelMapper8rowCountEv@Qt_5 5.7.1
+ _ZNK8QtCharts23QCandlestickModelMapper10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper14lastSetSectionEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper15firstSetSectionEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper3lowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper4highEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper4openEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper5closeEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper5modelEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper6seriesEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts23QCandlestickModelMapper9timestampEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QCandlestickLegendMarker10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper10highColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper10lastSetRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper10openColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper11closeColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper11firstSetRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper11orientationEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper15timestampColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QHCandlestickModelMapper9lowColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper11orientationEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper12timestampRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper13lastSetColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper14firstSetColumnEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper6lowRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper7highRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper7openRowEv@Qt_5 5.9.0~rc
+ _ZNK8QtCharts24QVCandlestickModelMapper8closeRowEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts27QHorizontalPercentBarSeries10metaObjectEv@Qt_5 5.7.1
  _ZNK8QtCharts27QHorizontalPercentBarSeries4typeEv@Qt_5 5.7.1
  _ZNK8QtCharts27QHorizontalStackedBarSeries10metaObjectEv@Qt_5 5.7.1
@@ -1210,6 +1433,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts7QLegend10labelBrushEv@Qt_5 5.7.1
  _ZNK8QtCharts7QLegend10labelColorEv@Qt_5 5.7.1
  _ZNK8QtCharts7QLegend10metaObjectEv@Qt_5 5.7.1
+ _ZNK8QtCharts7QLegend11markerShapeEv@Qt_5 5.9.0~rc
  _ZNK8QtCharts7QLegend12showToolTipsEv@Qt_5 5.7.1
  _ZNK8QtCharts7QLegend19isBackgroundVisibleEv@Qt_5 5.7.1
  _ZNK8QtCharts7QLegend3penEv@Qt_5 5.7.1
@@ -1265,6 +1489,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZTIN8QtCharts14QXYModelMapperE@Qt_5 5.7.1
  _ZTIN8QtCharts15QAbstractSeriesE@Qt_5 5.7.1
  _ZTIN8QtCharts15QBarModelMapperE@Qt_5 5.7.1
+ _ZTIN8QtCharts15QCandlestickSetE@Qt_5 5.9.0~rc
  _ZTIN8QtCharts15QHXYModelMapperE@Qt_5 5.7.1
  _ZTIN8QtCharts15QPieModelMapperE@Qt_5 5.7.1
  _ZTIN8QtCharts15QVXYModelMapperE@Qt_5 5.7.1
@@ -1280,10 +1505,16 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZTIN8QtCharts17QPercentBarSeriesE@Qt_5 5.7.1
  _ZTIN8QtCharts17QStackedBarSeriesE@Qt_5 5.7.1
  _ZTIN8QtCharts18QAbstractBarSeriesE@Qt_5 5.7.1
+ _ZTIN8QtCharts18QCandlestickSeriesE@Qt_5 5.9.0~rc
  _ZTIN8QtCharts19QBoxPlotModelMapperE@Qt_5 5.7.1
  _ZTIN8QtCharts20QBoxPlotLegendMarkerE@Qt_5 5.7.1
+ _ZTIN8QtCharts20QHBoxPlotModelMapperE@Qt_5 5.9.0~rc
  _ZTIN8QtCharts20QHorizontalBarSeriesE@Qt_5 5.7.1
  _ZTIN8QtCharts20QVBoxPlotModelMapperE@Qt_5 5.7.1
+ _ZTIN8QtCharts23QCandlestickModelMapperE@Qt_5 5.9.0~rc
+ _ZTIN8QtCharts24QCandlestickLegendMarkerE@Qt_5 5.9.0~rc
+ _ZTIN8QtCharts24QHCandlestickModelMapperE@Qt_5 5.9.0~rc
+ _ZTIN8QtCharts24QVCandlestickModelMapperE@Qt_5 5.9.0~rc
  _ZTIN8QtCharts27QHorizontalPercentBarSeriesE@Qt_5 5.7.1
  _ZTIN8QtCharts27QHorizontalStackedBarSeriesE@Qt_5 5.7.1
  _ZTIN8QtCharts6QChartE@Qt_5 5.7.1
@@ -1311,6 +1542,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZTSN8QtCharts14QXYModelMapperE@Qt_5 5.7.1
  _ZTSN8QtCharts15QAbstractSeriesE@Qt_5 5.7.1
  _ZTSN8QtCharts15QBarModelMapperE@Qt_5 5.7.1
+ _ZTSN8QtCharts15QCandlestickSetE@Qt_5 5.9.0~rc
  _ZTSN8QtCharts15QHXYModelMapperE@Qt_5 5.7.1
  _ZTSN8QtCharts15QPieModelMapperE@Qt_5 5.7.1
  _ZTSN8QtCharts15QVXYModelMapperE@Qt_5 5.7.1
@@ -1326,10 +1558,16 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZTSN8QtCharts17QPercentBarSeriesE@Qt_5 5.7.1
  _ZTSN8QtCharts17QStackedBarSeriesE@Qt_5 5.7.1
  _ZTSN8QtCharts18QAbstractBarSeriesE@Qt_5 5.7.1
+ _ZTSN8QtCharts18QCandlestickSeriesE@Qt_5 5.9.0~rc
  _ZTSN8QtCharts19QBoxPlotModelMapperE@Qt_5 5.7.1
  _ZTSN8QtCharts20QBoxPlotLegendMarkerE@Qt_5 5.7.1
+ _ZTSN8QtCharts20QHBoxPlotModelMapperE@Qt_5 5.9.0~rc
  _ZTSN8QtCharts20QHorizontalBarSeriesE@Qt_5 5.7.1
  _ZTSN8QtCharts20QVBoxPlotModelMapperE@Qt_5 5.7.1
+ _ZTSN8QtCharts23QCandlestickModelMapperE@Qt_5 5.9.0~rc
+ _ZTSN8QtCharts24QCandlestickLegendMarkerE@Qt_5 5.9.0~rc
+ _ZTSN8QtCharts24QHCandlestickModelMapperE@Qt_5 5.9.0~rc
+ _ZTSN8QtCharts24QVCandlestickModelMapperE@Qt_5 5.9.0~rc
  _ZTSN8QtCharts27QHorizontalPercentBarSeriesE@Qt_5 5.7.1
  _ZTSN8QtCharts27QHorizontalStackedBarSeriesE@Qt_5 5.7.1
  _ZTSN8QtCharts6QChartE@Qt_5 5.7.1
@@ -1356,6 +1594,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZTVN8QtCharts14QXYModelMapperE@Qt_5 5.7.1
  _ZTVN8QtCharts15QAbstractSeriesE@Qt_5 5.7.1
  _ZTVN8QtCharts15QBarModelMapperE@Qt_5 5.7.1
+ _ZTVN8QtCharts15QCandlestickSetE@Qt_5 5.9.0~rc
  _ZTVN8QtCharts15QHXYModelMapperE@Qt_5 5.7.1
  _ZTVN8QtCharts15QPieModelMapperE@Qt_5 5.7.1
  _ZTVN8QtCharts15QVXYModelMapperE@Qt_5 5.7.1
@@ -1371,10 +1610,16 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZTVN8QtCharts17QPercentBarSeriesE@Qt_5 5.7.1
  _ZTVN8QtCharts17QStackedBarSeriesE@Qt_5 5.7.1
  _ZTVN8QtCharts18QAbstractBarSeriesE@Qt_5 5.7.1
+ _ZTVN8QtCharts18QCandlestickSeriesE@Qt_5 5.9.0~rc
  _ZTVN8QtCharts19QBoxPlotModelMapperE@Qt_5 5.7.1
  _ZTVN8QtCharts20QBoxPlotLegendMarkerE@Qt_5 5.7.1
+ _ZTVN8QtCharts20QHBoxPlotModelMapperE@Qt_5 5.9.0~rc
  _ZTVN8QtCharts20QHorizontalBarSeriesE@Qt_5 5.7.1
  _ZTVN8QtCharts20QVBoxPlotModelMapperE@Qt_5 5.7.1
+ _ZTVN8QtCharts23QCandlestickModelMapperE@Qt_5 5.9.0~rc
+ _ZTVN8QtCharts24QCandlestickLegendMarkerE@Qt_5 5.9.0~rc
+ _ZTVN8QtCharts24QHCandlestickModelMapperE@Qt_5 5.9.0~rc
+ _ZTVN8QtCharts24QVCandlestickModelMapperE@Qt_5 5.9.0~rc
  _ZTVN8QtCharts27QHorizontalPercentBarSeriesE@Qt_5 5.7.1
  _ZTVN8QtCharts27QHorizontalStackedBarSeriesE@Qt_5 5.7.1
  _ZTVN8QtCharts6QChartE@Qt_5 5.7.1
