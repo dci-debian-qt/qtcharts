@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 10),
                pkg-kde-tools,
                qml-module-qtquick2 (>= 5.9.0~beta~),
                qml-module-qttest (>= 5.9.0~beta~),
-               qtbase5-dev (>= 5.9.0~beta+dfsg~),
+               qtbase5-dev (>= 5.9.0+dfsg~),
                qtdeclarative5-dev (>= 5.9.0~beta~),
                xauth,
                xvfb
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0~beta+dfsg~) <!nodoc>,
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.9.0~beta~) <!nodoc>
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtcharts-index.html
