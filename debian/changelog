@@ -1,8 +1,13 @@
 qtcharts-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
   * Install new files for candle stick and box plot models.
   * Update symbols from build logs.
+
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to fix wrong commercial-only license header
+    (fix_license_header.diff, closes: #864158).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 26 May 2017 23:13:40 -0500
 
