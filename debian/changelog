@@ -4,6 +4,7 @@ qtcharts-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Drop fix_license_header.diff, applied in the new release.
   * Bump Qt build-dependencies to 5.9.1.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Jul 2017 23:01:21 +0300
 
