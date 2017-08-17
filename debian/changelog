@@ -1,5 +1,8 @@
 qtcharts-opensource-src (5.9.1-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Disable tests during the transition. Yes, not ideal, but...
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Aug 2017 22:18:23 -0300
 
 qtcharts-opensource-src (5.9.1-2) unstable; urgency=medium
