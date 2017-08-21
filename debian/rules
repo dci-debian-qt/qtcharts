@@ -36,9 +36,9 @@ override_dh_install:
 	dh_install --fail-missing
 
 override_dh_auto_test-arch:
-	#$(MAKE) install -Csrc/chartsqml2 INSTALL_ROOT=$(CURDIR)/test_root
-	#xvfb-run -a -s "-screen 0 1024x768x24 +extension GLX" \
-	#	dh_auto_test -- -Ctests/auto \
-	#	QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
+	$(MAKE) install -Csrc/chartsqml2 INSTALL_ROOT=$(CURDIR)/test_root
+	-xvfb-run -a -s "-screen 0 1024x768x24 +extension GLX" \
+		dh_auto_test -- -Ctests/auto \
+		QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
 
 override_dh_auto_test-indep:

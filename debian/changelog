@@ -1,5 +1,7 @@
 qtcharts-opensource-src (5.9.1-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Run the tests, just make the results not fatal for the build.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Aug 2017 14:08:47 +0300
 
