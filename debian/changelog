@@ -1,4 +1,4 @@
-qtcharts-opensource-src (5.10.0~beta-0neon) UNRELEASED; urgency=medium
+qtcharts-opensource-src (5.10.0~beta2-0neon) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Run the tests, just make the results not fatal for the build.
