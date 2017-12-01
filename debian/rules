@@ -32,8 +32,8 @@ override_dh_auto_install-arch:
 	# Remove the libtool-like file
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5Charts.la
 
-override_dh_missing:
-	dh_missing --fail-missing
+override_dh_install:
+	dh_install --fail-missing
 
 override_dh_auto_test-arch:
 	$(MAKE) install -Csrc/chartsqml2 INSTALL_ROOT=$(CURDIR)/test_root
