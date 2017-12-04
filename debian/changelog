@@ -1,8 +1,8 @@
-qtcharts-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
+qtcharts-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 03 Dec 2017 21:24:58 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 03 Dec 2017 21:45:14 -0600
 
 qtcharts-opensource-src (5.9.2-1) unstable; urgency=medium
 
