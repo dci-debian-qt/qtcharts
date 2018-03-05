@@ -4,6 +4,7 @@ qtcharts-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
   * Update debian/watch to follow upstream naming changes.
+  * Update Vcs-[Git Browser] to use salsa.debian.org repos.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Mar 2018 10:20:24 -0300
 
