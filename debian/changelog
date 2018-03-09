@@ -1,7 +1,8 @@
 qtcharts-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Switch to using plain dh_auto_configure instead of calling qmake.
+  * Switch to using plain dh_auto_configure instead of calling qmake
+    (Closes: #888406).
     - Bump debhelper dependency to 10.9.2, required to do the change.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Mar 2018 10:13:40 -0300
