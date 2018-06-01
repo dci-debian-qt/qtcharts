@@ -19,28 +19,11 @@ qtcharts-opensource-src (5.10.1-1) experimental; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 06 Mar 2018 13:59:05 -0300
 
-qtcharts-opensource-src (5.10.0-0neon) UNRELEASED; urgency=medium
-
-  [ Dmitry Shachnev ]
-  * Run the tests, just make the results not fatal for the build.
-
-  [ Jonathan Riddell ]
-  * 5.10
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:30 +0100
-
-qtcharts-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
-
-  * New release
-  * New release
-  * new release
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:09 +0000
-
 qtcharts-opensource-src (5.9.2-1) unstable; urgency=medium
 
   * New upstream release.
   * Run the tests, just make the results not fatal for the build.
+  * Use dh_missing instead of deprecated dh_install --fail-missing.
   * Stop using deprecated Priority: extra.
   * Bump Standards-Version to 4.1.1.
 
