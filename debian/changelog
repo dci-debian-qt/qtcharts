@@ -1,3 +1,9 @@
+qtcharts-opensource-src (5.11.0-0neon) xenial; urgency=medium
+
+  * Release 5.11 to neon
+
+ -- Bhushan Shah <bshah@kde.org>  Fri, 01 Jun 2018 08:39:38 +0000
+
 qtcharts-opensource-src (5.10.1-2) unstable; urgency=medium
 
   * Switch to using plain dh_auto_configure instead of calling qmake
