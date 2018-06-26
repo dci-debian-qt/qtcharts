@@ -1,3 +1,7 @@
+qtcharts-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Jun 2018 23:04:39 -0500
+
 qtcharts-opensource-src (5.10.1-2) unstable; urgency=medium
 
   * Switch to using plain dh_auto_configure instead of calling qmake
