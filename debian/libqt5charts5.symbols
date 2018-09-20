@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 5.10.1 amd64
+# SymbolsHelper-Confirmed: 5.11.1 amd64
 libQt5Charts.so.5 libqt5charts5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1
  Qt_5.10@Qt_5.10 5.10.1
+ Qt_5.11@Qt_5.11 5.11.1
  Qt_5.1@Qt_5.1 5.7.1
  Qt_5.2@Qt_5.2 5.7.1
  Qt_5.3@Qt_5.3 5.7.1
@@ -838,12 +839,16 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts14QLegendPrivate10addMarkersE5QListIPNS_13QLegendMarkerEE@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate11qt_metacastEPKc@Qt_5 5.10.1
+ _ZN8QtCharts14QLegendPrivate13relatedObjectEPKNS_13QLegendMarkerE@Qt_5 5.11.1
  _ZN8QtCharts14QLegendPrivate13removeMarkersE5QListIPNS_13QLegendMarkerEE@Qt_5 5.10.1
+ _ZN8QtCharts14QLegendPrivate14decorateMarkerEPNS_13QLegendMarkerE@Qt_5 5.11.1
  _ZN8QtCharts14QLegendPrivate14updateToolTipsEv@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate15decorateMarkersE5QListIPNS_13QLegendMarkerEE@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate16staticMetaObjectE@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate17handleSeriesAddedEPNS_15QAbstractSeriesE@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate18handleCountChangedEv@Qt_5 5.10.1
+ _ZN8QtCharts14QLegendPrivate18insertMarkerHelperEPNS_13QLegendMarkerE@Qt_5 5.11.1
+ _ZN8QtCharts14QLegendPrivate18removeMarkerHelperEPNS_13QLegendMarkerE@Qt_5 5.11.1
  _ZN8QtCharts14QLegendPrivate19handleSeriesRemovedEPNS_15QAbstractSeriesE@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate26handleSeriesVisibleChangedEv@Qt_5 5.10.1
  _ZN8QtCharts14QLegendPrivate7markersEPNS_15QAbstractSeriesE@Qt_5 5.10.1
@@ -1558,9 +1563,11 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZN8QtCharts18QAbstractBarSeries16staticMetaObjectE@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeries17setLabelsPositionENS0_14LabelsPositionE@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeries18labelsAngleChangedEd@Qt_5 5.7.1
+ _ZN8QtCharts18QAbstractBarSeries18setLabelsPrecisionEi@Qt_5 5.11.1
  _ZN8QtCharts18QAbstractBarSeries19labelsFormatChangedERK7QString@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeries20labelsVisibleChangedEv@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeries21labelsPositionChangedENS0_14LabelsPositionE@Qt_5 5.7.1
+ _ZN8QtCharts18QAbstractBarSeries22labelsPrecisionChangedEi@Qt_5 5.11.1
  _ZN8QtCharts18QAbstractBarSeries4takeEPNS_7QBarSetE@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeries5clearEv@Qt_5 5.7.1
  _ZN8QtCharts18QAbstractBarSeries6appendE5QListIPNS_7QBarSetEE@Qt_5 5.7.1
@@ -3243,6 +3250,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts18QAbstractBarSeries12labelsFormatEv@Qt_5 5.7.1
  _ZNK8QtCharts18QAbstractBarSeries14labelsPositionEv@Qt_5 5.7.1
  _ZNK8QtCharts18QAbstractBarSeries15isLabelsVisibleEv@Qt_5 5.7.1
+ _ZNK8QtCharts18QAbstractBarSeries15labelsPrecisionEv@Qt_5 5.11.1
  _ZNK8QtCharts18QAbstractBarSeries5countEv@Qt_5 5.7.1
  _ZNK8QtCharts18QAbstractBarSeries7barSetsEv@Qt_5 5.7.1
  _ZNK8QtCharts18QAbstractBarSeries8barWidthEv@Qt_5 5.7.1
@@ -3289,6 +3297,7 @@ libQt5Charts.so.5 libqt5charts5 #MINVER#
  _ZNK8QtCharts19StackedBarChartItem10metaObjectEv@Qt_5 5.10.1
  _ZNK8QtCharts20AbstractBarChartItem10metaObjectEv@Qt_5 5.10.1
  _ZNK8QtCharts20AbstractBarChartItem12boundingRectEv@Qt_5 5.10.1
+ _ZNK8QtCharts20AbstractBarChartItem9animationEv@Qt_5 5.11.1
  _ZNK8QtCharts20BoxWhiskersAnimation10metaObjectEv@Qt_5 5.10.1
  _ZNK8QtCharts20BoxWhiskersAnimation12interpolatedERK8QVariantS3_d@Qt_5 5.10.1
  _ZNK8QtCharts20CandlestickAnimation10metaObjectEv@Qt_5 5.10.1
