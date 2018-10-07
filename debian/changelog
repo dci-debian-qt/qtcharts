@@ -4,6 +4,7 @@ qtcharts-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-version to 4.2.1, no changes needed.
   * Bump Qt build dependencies to 5.11.2.
+  * Bump the copyright year for my contributions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Oct 2018 16:36:44 -0500
 
