@@ -1,3 +1,9 @@
+qtcharts-opensource-src (5.11.2-0neon) UNRELEASED; urgency=medium
+
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Thu, 20 Sep 2018 16:20:07 +0100
+
 qtcharts-opensource-src (5.11.1-2) unstable; urgency=medium
 
   * Upload to Sid.
