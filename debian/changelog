@@ -4,6 +4,7 @@ qtcharts-opensource-src (5.11.2-2) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Add qtbase5-doc-html to Build-Depends-Indep.
   * Drop explicit build-dependency on libqt5sql5-sqlite.
+  * Use https for Homepage URL.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2018 00:16:14 +0300
 
