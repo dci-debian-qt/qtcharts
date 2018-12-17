@@ -1,4 +1,8 @@
-qtcharts-opensource-src (5.11.2-3) UNRELEASED; urgency=medium
+qtcharts-opensource-src (5.11.3-1) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+   - Bump Qt build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Dec 2018 19:32:03 -0300
 
